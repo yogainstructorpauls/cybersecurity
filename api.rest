@@ -1,0 +1,12 @@
+GET http://127.0.0.1:3000/v1/client/test HTTP/1.1
+content-type: application/json
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImhlZGljc3ozYzR5ZHozMDNrMm50IiwiaWF0IjoxNzk1NDMwNTc4fQ.STIwCsqZHqCwPTNUMvxoA6qArFTtpg1npf3JfImn1RE; Path=/; HttpOnly
+
+###
+
+POST http://127.0.0.1:3000/v1/client/register HTTP/1.1
+content-type: application/json
+
+{
+    "username": "christ8"
+}
